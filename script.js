@@ -3,7 +3,7 @@ import { getDatabase, ref, push, onChildAdded } from "https://www.gstatic.com/fi
 
 // Your Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyA3VvkO0SXWMUZo_Fb66fmjY7sfiIe2h9A",
+  apiKey:  import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "hate-c0efd.firebaseapp.com",
   databaseURL: "https://hate-c0efd-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "hate-c0efd",
